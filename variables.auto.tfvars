@@ -1,0 +1,13 @@
+credentials        = "./credentials/souza-cluster-keyfile.json"
+project_id         = "infra-up-uplug"
+region             = "us-central1"
+zones              = ["us-central1-a", "us-central1-b"]
+name               = "gke-cluster"
+network            = "vpcnetwork"
+subnetwork         = "my-subnetwork"
+machine_type       = "g1-small"
+min_count          = 1
+max_count          = 2
+disk_size_gb       = 10
+service_account    = "souza-cluster@infra-up-uplug.iam.gserviceaccount.com"
+initial_node_count = 1
